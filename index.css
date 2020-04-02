@@ -106,7 +106,7 @@ img {
 
 [class*="col-"] {
     float: left;
-    padding: 15px;
+    padding: 10px;
     width: 100%; /* For mobile: 0px ~ 600px */
 }
 
