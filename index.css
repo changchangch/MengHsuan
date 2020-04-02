@@ -27,10 +27,11 @@ img {
     top:0;
     z-index:1; /*重疊時會在其他元素之上*/
     /* 背景顏色 */
-    background-color: #d0d1e7;
+    background-color: #FF8C69;
     /* 文字位置 */
     text-align: left;
     line-height: 25px;
+    text-indent: 24px;
 }
 
 .header>a {
@@ -41,7 +42,7 @@ img {
 
 .row {
     /* 高度寬度 */
-    height: 55px;
+    height: 60px;
     width: 100%; 
     box-sizing: border-box;
     /* 位置 */
@@ -72,7 +73,7 @@ img {
     padding-top: 140px;
     padding-bottom: 55px;
     /* 背景顏色 */
-    background-color: #D3D3D3;
+    background-color: #6495ED;
     overflow: auto;
 }
 
