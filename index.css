@@ -51,12 +51,13 @@ img {
     /* 背景顏色 */
     background-color: #d0d1e7;
     /* 文字位置 */
-    text-align: left;
+    text-align: center;
 }
 
 .Re>a {
     /* 文字裝飾線*/
     text-decoration: none;
+    text-align: center;
     color: black;
 }
 
