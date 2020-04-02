@@ -54,6 +54,12 @@ img {
     text-align: left;
 }
 
+.Re>a {
+    /* 文字裝飾線*/
+    text-decoration: none;
+    color: black;
+}
+
 .row::after { /* ::after 偽元素*/
     content: "";     /*欲插入的""內容接續在.row後面*/
     clear: both;     /*左右兩側均不允許浮動元素。*/
