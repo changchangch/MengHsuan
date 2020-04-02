@@ -4,19 +4,24 @@ html, body {
     margin: 0px;
     font-family: 'Noto Sans SC', sans-serif;
 }
+img {
+    max-width: 100%;   /* 不會縮放到  "大於"其原始大小 */
+    height: auto;      /* 隨著寬度等比例縮放 */
+}
 
-#wrapper {
+.wrapper {
     /* 設定高度最小為100%, 如果內容區塊很多, 可以長大 */
     min-height: 100%;
     /* 位置設為relative, 作為footer區塊位置的參考 */
     position: relative;
 }
 
-#header {
+.header {
     /* 高度寬度 */
-    height: 100px;
+    height: 80px;
     width: 100%; 
     box-sizing: border-box;
+    padding: 10px;
     /* 位置 */
     position: fixed;
     top:0;
@@ -25,17 +30,43 @@ html, body {
     background-color: #d0d1e7;
 }
 
-#content {
+.header>a {
+    /* 文字裝飾線*/
+    text-decoration: none;
+    color: black;
+}
+
+.row {
+    /* 高度寬度 */
+    height: 55px;
+    width: 100%; 
+    box-sizing: border-box;
+    /* 位置 */
+    position: fixed;
+    top: 80px;
+    z-index:1; /*重疊時會在其他元素之上*/
+    /* 背景顏色 */
+    background-color: #d0d1e7;
+    /* 文字位置 */
+    text-align: left;
+}
+
+.row::after { /* ::after 偽元素*/
+    content: "";     /*欲插入的""內容接續在.row後面*/
+    clear: both;     /*左右兩側均不允許浮動元素。*/
+    display: block;  /* 會換行 (.row以後的東西換到下面去)*/
+}
+
+.content {
     /* 留出header及footer區塊的空間 */
-    padding-top: 100px;
+    padding-top: 140px;
     padding-bottom: 55px;
     /* 背景顏色 */
     background-color: #D3D3D3;
-    background-attachment: fixed;
     overflow: auto;
 }
 
-#footer {
+.footer {
     /* 高度寬度 */
     height: 55px;
     width: 100%;
@@ -73,14 +104,14 @@ html, body {
 
 
 
-
-@media (min-width: 600px) {
-  p {
-    font-size: 20px;
-  }
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    width: 100%; /* For mobile: 0px ~ 600px */
 }
-/*
+
 @media only screen and (min-width: 600px) {
+    /* For tablets: 500px ~ 768px */
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
     .col-s-3 {width: 25%;}
@@ -94,7 +125,8 @@ html, body {
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
 }
-@media only screen and (min-width: 768px) {   
+@media only screen and (min-width: 768px) { 
+    /* For desktop: 768px以上 */  
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
     .col-3 {width: 25%;}
@@ -108,4 +140,3 @@ html, body {
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 }
-*/
