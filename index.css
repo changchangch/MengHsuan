@@ -29,6 +29,7 @@ html, body {
     /* 留出header及footer區塊的空間 */
     padding-top: 100px;
     padding-bottom: 55px;
+    /* 背景顏色 */
     background-color: #D3D3D3;
     background-attachment: fixed;
     overflow: auto;
