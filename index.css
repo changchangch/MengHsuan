@@ -28,7 +28,7 @@ html, body {
 #content {
     /* 留出header及footer區塊的空間 */
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 55px;
     background-color: #D3D3D3;
     background-attachment: fixed;
     overflow: auto;
@@ -36,7 +36,7 @@ html, body {
 
 #footer {
     /* 高度寬度 */
-    height: 50px;
+    height: 55px;
     width: 100%;
     box-sizing: border-box;
     /* 位置 */
