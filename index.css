@@ -27,8 +27,9 @@ img {
     top:0;
     z-index:1; /*重疊時會在其他元素之上*/
     /* 背景顏色 */
-    background-color: #d0d1e7;
+    background-color: #FF8C69;
     /* 文字位置 */
+    text-align: left;
     line-height: 25px;
 }
 
