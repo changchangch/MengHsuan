@@ -69,10 +69,10 @@ img {
 
 .content {
     /* 高度寬度 */
-    height: 74%;
+    height: 75%;
     width: 100%;
     top: 19%;
-    bottom: 7%;
+    bottom: 6%;
     /* 位置 */
     position: absolute;
     overflow: auto;
@@ -82,7 +82,7 @@ img {
 
 .footer {
     /* 高度寬度 */
-    height: 7%;
+    height: 6%;
     width: 100%;
     /* 位置 */
     position: fixed;
