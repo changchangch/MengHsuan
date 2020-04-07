@@ -45,7 +45,7 @@ img {
 
 .row {
     /* 高度寬度 */
-    height: 9%;
+    height: 10%;
     width: 100%; 
     /* 位置 */
     position: fixed;
@@ -69,10 +69,10 @@ img {
 
 .content {
     /* 高度寬度 */
-    height: 75%;
+    height: 73%;
     width: 100%;
-    top: 19%;
-    bottom: 6%;
+    top: 20%;
+    bottom: 7%;
     /* 位置 */
     position: absolute;
     overflow: auto;
@@ -82,7 +82,7 @@ img {
 
 .footer {
     /* 高度寬度 */
-    height: 6%;
+    height: 7%;
     width: 100%;
     /* 位置 */
     position: fixed;
