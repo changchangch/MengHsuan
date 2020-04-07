@@ -122,7 +122,7 @@ img {
     width: 100%; /* For mobile: 0px ~ 600px */
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 320px) {
     /* For mobile: 0px ~ 320px */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
@@ -137,7 +137,7 @@ img {
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 500px) and (max-width: 767px) {
     /* For tablets: 500px ~ 768px */
     .col-sm-1 {width: 8.33%;}
     .col-sm-2 {width: 16.66%;}
