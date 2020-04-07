@@ -137,7 +137,7 @@ img {
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 }
-@media only screen and (min-width: 500px) and (max-width: 767px) {
+@media only screen and (min-width: 500px) and (max-width: 768px) {
     /* For tablets: 500px ~ 768px */
     .col-sm-1 {width: 8.33%;}
     .col-sm-2 {width: 16.66%;}
@@ -152,8 +152,8 @@ img {
     .col-sm-11 {width: 91.66%;}
     .col-sm-12 {width: 100%;}
 }
-@media only screen and (min-width: 768px) { 
-    /* For desktop: 768px以上 */  
+@media only screen and (min-width: 769px) { 
+    /* For desktop: 769px以上 */  
     .col-md-1 {width: 8.33%;}
     .col-md-2 {width: 16.66%;}
     .col-md-3 {width: 25%;}
