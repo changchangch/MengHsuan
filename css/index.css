@@ -7,6 +7,7 @@
     box-sizing: border-box;
     background-repeat: round;
     background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    word-wrap: break-word; 
 }
 
 img {
@@ -63,12 +64,6 @@ img {
     text-decoration: none;
     text-align: center;
     color: black;
-}
-
-.Re::after { /* ::after 偽元素*/
-    content: "";     /*欲插入的""內容接續在.row後面*/
-    clear: both;     /*左右兩側均不允許浮動元素。*/
-    display: block;  /* 會換行 (.row以後的東西換到下面去)*/
 }
 
 .content {
