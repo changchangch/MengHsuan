@@ -25,15 +25,13 @@ img {
     /* 高度寬度 */
     height: 10%;
     width: 100%; 
-    padding: 2%;
     /* 位置 */
     position: fixed;
     top: 0;
     z-index: 1; /*重疊時會在其他元素之上*/
     /* 文字位置 */
     font-size: 3vmin;
-    text-align: left;
-    line-height: 5vmin;
+    text-align: center;
 }
 
 .header>a {
