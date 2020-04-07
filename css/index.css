@@ -78,6 +78,7 @@ img {
     overflow-y: auto;
     /* 文字位置 */
     text-align: left;
+    padding: 1vmin;
 }
 
 .footer {
