@@ -121,8 +121,8 @@ img {
     width: 100%; /* For mobile: 0px ~ 600px */
 }
 
-@media only screen and (max-width: 320px) {
-    /* For mobile: 0px ~ 320px */
+@media only screen and (max-width: 499px) {
+    /* For mobile: 0px ~ 499px */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
     .col-3 {width: 25%;}
