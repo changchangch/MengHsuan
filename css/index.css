@@ -74,6 +74,7 @@ img {
     bottom: 7%;
     /* 位置 */
     position: absolute;
+    overflow-x: hidden;
     overflow-y: auto;
     /* 文字位置 */
     text-align: left;
