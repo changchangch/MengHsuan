@@ -45,7 +45,7 @@ img {
 
 .row {
     /* 高度寬度 */
-    height: 10%;
+    height: 9%;
     width: 100%; 
     /* 位置 */
     position: fixed;
@@ -64,15 +64,14 @@ img {
 .Re>a {
     /* 文字裝飾線*/
     text-decoration: none;
-    text-align: center;
     color: black;
 }
 
 .content {
     /* 高度寬度 */
-    height: 73%;
+    height: 74%;
     width: 100%;
-    top: 20%;
+    top: 19%;
     bottom: 7%;
     /* 位置 */
     position: absolute;
