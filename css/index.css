@@ -95,7 +95,7 @@ img {
 }
 /*滑块*/
 ::-webkit-scrollbar {
-    width: 1vmin;
+    width: 0.1vmin;
     height: 1vmin;
     /*background-color: #ddd;*/
 }
