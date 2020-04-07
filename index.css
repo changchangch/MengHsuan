@@ -30,7 +30,7 @@ img {
     top: 0;
     z-index: 1; /*重疊時會在其他元素之上*/
     /* 文字位置 */
-    font-size: 3vmin;
+    font-size: 6vmin;
     text-align: center;
 }
 
