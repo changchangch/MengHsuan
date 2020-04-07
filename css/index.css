@@ -6,6 +6,7 @@
     font-family: 'Noto Serif TC', serif;
     box-sizing: border-box;
     background-repeat: round;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
 
 img {
@@ -19,7 +20,7 @@ img {
     /* 位置設為relative, 作為footer區塊位置的參考 */
     position: relative;
     /* 背景顏色 */
-    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    /* background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);*/
 }
 
 .header {
