@@ -6,7 +6,7 @@
     font-family: 'Noto Serif TC', serif;
     box-sizing: border-box;
     background-repeat: round;
-    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    /* background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);*/
     word-wrap: break-word;
 }
 
@@ -21,7 +21,7 @@ img {
     /* 位置設為relative, 作為footer區塊位置的參考 */
     position: relative;
     /* 背景顏色 */
-    /* background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);*/
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
 
 .header {
@@ -31,7 +31,6 @@ img {
     /* 位置 */
     position: fixed;
     top: 0;
-    z-index: 1; /*重疊時會在其他元素之上*/
     /* 文字位置 */
     font-size: 6vmin;
     text-align: center;
@@ -50,7 +49,6 @@ img {
     /* 位置 */
     position: fixed;
     top: 10%;
-    z-index: 1; /*重疊時會在其他元素之上*/
     display: flex;
     flex-wrap: wrap;
 }
@@ -88,7 +86,6 @@ img {
     /* 位置 */
     position: fixed;
     bottom: 0;
-    z-index: 1; /*重疊時會在其他元素之上*/
     /* 文字大小位置顏色 */
     font-size: 2vmin;
     text-align: center;
